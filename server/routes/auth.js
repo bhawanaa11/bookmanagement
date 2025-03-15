@@ -7,7 +7,7 @@ const {
     getProfile,
 } = require("../controllers/authController");
 const auth = require("../middleware/auth");
-const checkRole = require("..//middleware/roleCheck");
+const checkRole = require("../middleware/roleCheck");
 
 router.post("/register", register);
 router.post("/login", login);
